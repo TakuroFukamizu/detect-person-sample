@@ -1,6 +1,6 @@
 #!/bin/sh -x
 
-eval "$(cat .env <(echo) <(declare -x))"
+# eval "$(cat .env <(echo) <(declare -x))"
 
 rm -rf temp/train
 rm -rf temp/val
