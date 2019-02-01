@@ -107,7 +107,7 @@ $ set -x; \
 
 tiny-yolo3の場合:  
 ```sh
-$ cd /opt/kby
+$ cd /opt/app
 $ set -x; \
   export TRAIN_DATA=dataset/train_data; \
   export VAL_DATA=dataset/val_data; \
