@@ -1,0 +1,10 @@
+/Users/fkmy/aiq-bbox-label-tool//Users/fkmy/aiq/aicam/dataset/val_data/Images/000/oficina.jpg
+/Users/fkmy/aiq-bbox-label-tool//Users/fkmy/aiq/aicam/dataset/val_data/Images/000/Bar9.jpg
+/Users/fkmy/aiq-bbox-label-tool//Users/fkmy/aiq/aicam/dataset/val_data/Images/000/7648-00010-1.jpg
+/Users/fkmy/aiq-bbox-label-tool//Users/fkmy/aiq/aicam/dataset/val_data/Images/000/Florida-State-University-quarterback-DeAndre-Jordan-grabs-an-unidentified-woman-just-before-hitting-her-Tallahassee-Democrat-800x430.jpg
+/Users/fkmy/aiq-bbox-label-tool//Users/fkmy/aiq/aicam/dataset/val_data/Images/000/hqdefault.jpg
+/Users/fkmy/aiq-bbox-label-tool//Users/fkmy/aiq/aicam/dataset/val_data/Images/000/surceillance-camera-title-e1481158252907.jpg
+/Users/fkmy/aiq-bbox-label-tool//Users/fkmy/aiq/aicam/dataset/val_data/Images/000/7648-00006-1.jpg
+/Users/fkmy/aiq-bbox-label-tool//Users/fkmy/aiq/aicam/dataset/val_data/Images/000/Security-Cameras-with-360-Fisheye.jpg
+/Users/fkmy/aiq-bbox-label-tool//Users/fkmy/aiq/aicam/dataset/val_data/Images/000/hqdefault2.jpg
+/Users/fkmy/aiq-bbox-label-tool//Users/fkmy/aiq/aicam/dataset/val_data/Images/000/mcdonald-s.jpg
