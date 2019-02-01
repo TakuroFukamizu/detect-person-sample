@@ -96,8 +96,8 @@ yolo3の場合:
 ```sh
 $ cd /opt/app
 $ set -x; \
-  export TRAIN_DATA=train_data; \
-  export VAL_DATA=val_data; \
+  export TRAIN_DATA=dataset/train_data; \
+  export VAL_DATA=dataset/val_data; \
   export FILE_DB=cfg/dataset.txt; \
   export FILE_CFG=cfg/yolov3.train.cfg; \
   export PATH=/opt/darknet:$PATH; \
@@ -109,8 +109,8 @@ tiny-yolo3の場合:
 ```sh
 $ cd /opt/kby
 $ set -x; \
-  export TRAIN_DATA=train_data; \
-  export VAL_DATA=val_data; \
+  export TRAIN_DATA=dataset/train_data; \
+  export VAL_DATA=dataset/val_data; \
   export FILE_DB=cfg/dataset.txt; \
   export FILE_CFG=cfg/yolov3-tiny.train.cfg; \
   export PATH=/opt/darknet:$PATH; \
