@@ -21,4 +21,4 @@ cp -r ${VAL_DATA}/BBoxes/* temp/val/labels/
 ls temp/train/images/**/*.jpg > temp/train/index.txt
 ls temp/val/images/**/*.jpg > temp/val/index.txt
 
-echo "darknet detector train ${FILE_DB} ${FILE_CFG} /opt/kby/yolov3-tiny.conv.15"
+echo "darknet detector train ${FILE_DB} ${FILE_CFG} /opt/app/yolov3-tiny.conv.15"

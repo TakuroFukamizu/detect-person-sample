@@ -79,7 +79,7 @@ dockerコンテナを起動する。
 docker run \
     --name manakamera-ai-training \
     --runtime=nvidia \
-    -v $PWD:/opt/kby \
+    -v $PWD:/opt/app \
     -it fkmy/nvidia-docker-darknet:latest
 ```
 
@@ -94,7 +94,7 @@ $ docker start manakamera-ai-training && docker attach manakamera-ai-training
 
 yolo3の場合:  
 ```sh
-$ cd /opt/kby
+$ cd /opt/app
 $ set -x; \
   export TRAIN_DATA=train_data; \
   export VAL_DATA=val_data; \
@@ -115,7 +115,7 @@ $ set -x; \
   export FILE_CFG=cfg/yolov3-tiny.train.cfg; \
   export PATH=/opt/darknet:$PATH; \
   ./prep.sh; \
-  darknet detector train ${FILE_DB} ${FILE_CFG} /opt/kby/yolov3-tiny.conv.15
+  darknet detector train ${FILE_DB} ${FILE_CFG} /opt/app/yolov3-tiny.conv.15
 ```
 
 ----
