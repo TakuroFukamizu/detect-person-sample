@@ -1,6 +1,42 @@
 
 
+## requirement
 
+- git
+- python3.5 or higher
+- pipenv
+
+## preperation
+
+```sh
+$ git submodule update --init --recursive
+$ pipenv install
+```
+
+make `.env` file
+
+```sh
+CLASS_NUM=1
+TRAIN_DATA=dataset/train_data
+VAL_DATA=dataset/val_data
+FILE_DB=cfg/dataset.txt
+FILE_LBL=cfg/labels.txt
+CFG_TRAIN=yolov3-tiny.train.cfg
+CFG_PREDI=yolov3-tiny.predict.cfg
+CONFIG_PATH=cfg/yolov3-tiny.predict.cfg
+CLASS_PATH=cfg/labels.txt
+WEIGHTS_PATH=./latest/yolov3-tiny.backup
+OUTPUT_MODEL_NAME=yolov3-tiny_latest.h5
+OUTPUT_DIR=./latest
+IOU_THRESHOLD=0.01
+SCORE_THRESHOLD=0.01
+```
+
+## running ai sample
+
+```sh
+$ ./run_predict.sh
+```
 
 ## Crate Config files
 
