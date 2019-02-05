@@ -8,6 +8,10 @@ argparse = "*"
 numpy = "*"
 keras = "*"
 tensorflow = "*"
+pillow = "*"
+matplotlib = "*"
+opencv-python = "*"
+scikit-image = "*"
 
 [dev-packages]
 
